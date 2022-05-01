@@ -4,9 +4,18 @@
     * / Hello, this is Porter.  If you're reading this, there really is not much to see here but billions of lines of nonsense / *
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </script>
     <style>
-      img {
-        width: 300px;
-        height: 300px;
+      * {
+        box-sizing: border-box;
+      }
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      row::after {
+        content: "";
+        clear: both;
+        display: table;
       }
       html {
         background: url('https://images.immediate.co.uk/production/volatile/sites/4/2022/03/Golden-axolotl-eaf7ae8.jpg') no-repeat center center fixed;
@@ -23,7 +32,7 @@
       <h1>Ryxfn and Bean</h1>
       <br />
      <p>Ryxfn is going a bit psycho because the first time I fed it it got traumatized by the tweezers I used to give it bloodworms.  Harper did fine feeding Bean because she dropped the worm into the water instead of submerging the tweezers.  I should have done that.  Ryxfn has almost finished its dinner, but it is dumb enough to be swimming in circles on the outside of the tupperware, so it doesn't try to get the bloodworms that were scattered to the middle when it went absolutely insane.</p>
-    <p><a href="/ryxfn"><img src="/images/Ryxfn@4-31-2022.jpg"></a></p><p><a href="/bean"><img src="/images/Bean@4-31-2022.jpg"></a></p>
+    <div class="row"><p><div class="column"><a href="/ryxfn"><img src="/images/Ryxfn@4-31-2022.jpg"></a></div></p><p><div class="column"><a href="/bean"><img src="/images/Bean@4-31-2022.jpg"></a></div></p></div>
      <p><a href="https://photos.google.com/share/AF1QipMnqtos0JeXA0tpaZiUWcKrP6USSuYCk4LSgBJs_ezus85RcuUkFlfP-0gU7gI9OA">How are the axolotls doing?  Click to see my mom's photo album (you can see Ryxfn going insane).</a></p>
      <p><a href="/README.md">No idea where you are and what you're doing?  Click here to find out!</a></p>
   </body>
