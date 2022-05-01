@@ -1,1 +1,7 @@
-
+html {
+  background: url('https://images.immediate.co.uk/production/volatile/sites/4/2022/03/Golden-axolotl-eaf7ae8.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-backgrounnd-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
